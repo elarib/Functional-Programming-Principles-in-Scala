@@ -19,57 +19,29 @@ object FunSets {
   /**
    * Returns the set of the one given element.
    */
-  def singletonSet(elem: Int): Set = {
-
-      def creaetSet(x :Int) : Boolean = {
-        x == elem
-      }
-    creaetSet
-    }
+  def singletonSet(elem: Int): Set = (x: Int) =>  x == elem
   
 
   /**
    * Returns the union of the two given sets,
    * the sets of all elements that are in either `s` or `t`.
    */
-    def union(s: Set, t: Set): Set = {
-
-      def unionTwoSet(elem: Int) : Boolean = {
-        (contains(s, elem) || contains(t, elem))
-      }
-    unionTwoSet
-  }
-  
+    def union(s: Set, t: Set): Set = (elem: Int) => (contains(s, elem) || contains(t, elem))
   /**
    * Returns the intersection of the two given sets,
    * the set of all elements that are both in `s` and `t`.
    */
-    def intersect(s: Set, t: Set): Set = {
-
-      def intersectTwoSet(elem: Int) : Boolean = {
-        (contains(s, elem) && contains(t, elem))
-      }
-    intersectTwoSet
-  }
-  
+    def intersect(s: Set, t: Set): Set = (elem: Int) => (contains(s, elem) && contains(t, elem))
   /**
    * Returns the difference of the two given sets,
    * the set of all elements of `s` that are not in `t`.
    */
-    def diff(s: Set, t: Set): Set = {
-      def diffTwoSet(elem: Int) : Boolean = {
-        (contains(s, elem) && !contains(t, elem))
-
-      }
-      diffTwoSet
-  }
+    def diff(s: Set, t: Set): Set = (elem: Int) => (contains(s, elem) && !contains(t, elem))
   
   /**
    * Returns the subset of `s` for which `p` holds.
    */
-  def filter(s: Set, p: Int => Boolean): Set = {
-    intersect(s, p)
-  }
+  def filter(s: Set, p: Int => Boolean): Set = intersect(s, p)
   
 
   /**
@@ -93,19 +65,7 @@ object FunSets {
    * Returns whether there exists a bounded integer within `s`
    * that satisfies `p`.
    */
-    def exists(s: Set, p: Int => Boolean): Boolean = {
-
-    def iter(a: Int): Boolean = {
-      if (s(a) && p(a)) true
-      else if (a > bound) false
-      else iter(a+1)
-    }
-    iter(-bound)
-
-
-
-
-    }
+    def exists(s: Set, p: Int => Boolean): Boolean = ! forall(s, (i:Int) => !p(i))
   
   /**
    * Returns a set transformed by applying `f` to each element of `s`.
