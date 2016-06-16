@@ -49,7 +49,7 @@ object TestApp extends App {
 
 	override def main(args: Array[String]): Unit = {
 		val google = List("android", "Android", "galaxy", "Galaxy", "nexus", "Nexus")
-		
+
 		println(google.map(elem => "android is Amazing lkdelkdelk".contains(elem)))
 	}
 }
