@@ -1,46 +1,55 @@
+
+
 /**
 	* Created by elarib on 6/9/16.
 	*/
-abstract class IntSet {
-
-	def incl(x: Int): IntSet
-	def contains(x: Int) : Boolean
-	
-}
 
 
-class Empty extends IntSet{
-	def incl(x: Int): IntSet = new NonEmpty(x, new Empty, new Empty)
 
-	def contains(x: Int): Boolean = false
-}
+trait List[T]{
+	def isEmpty : Boolean
+	def head : T
+	def tail : List[T]
 
 
-class NonEmpty(elem: Int, left: IntSet, right: IntSet) extends IntSet{
-	def incl(x: Int): IntSet =
-		if(x < elem) new NonEmpty(elem, left incl x, right)
-	else if(x > elem) new NonEmpty(elem, left, right incl x)
-	else  this
+	def nth[T](n: Int, list : List[T]): T= {
 
-	def contains(x: Int): Boolean =
-		if(x < elem)
-			left contains x
-		else if(x > elem) right contains x
-		else  true
+		if(n == 0) list.head
+		else
+			{
+				nth[T](n- 1 , list.tail)
+			}
+
+
+	}
 
 }
 
 
-trait Shape{
-	def width : Int
 
-	val d = 2
+class Cons[T](val head: T, val tail: List[T]) extends List[T]{
+
+	def isEmpty = false
+
+}
+
+class Nil[T] extends  List[T]{
+	def isEmpty = true
+
+	def head: Nothing = throw new NoSuchElementException("Nil.head ")
+
+	def tail: Nothing = throw new NoSuchElementException("Tail.head")
+
 }
 
 
 
-  def getTheNthElt(nth: Int, list : List) ={
 
-	  list.take(nth)
+object TestApp extends App {
 
-  }
+	override def main(args: Array[String]): Unit = {
+		val google = List("android", "Android", "galaxy", "Galaxy", "nexus", "Nexus")
+		
+		println(google.map(elem => "android is Amazing lkdelkdelk".contains(elem)))
+	}
+}
