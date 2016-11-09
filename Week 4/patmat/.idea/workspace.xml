@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="199d12b5-9c3a-40e1-b8cf-a1b138a88cc2" name="Default" comment="" />
-    <ignored path="CourseExamples.iws" />
+    <list default="true" id="2a3e1af9-7f2c-4742-a839-e896f90bf7cf" name="Default" comment="" />
+    <ignored path="patmat.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/project/project/target/" />
-    <ignored path="$PROJECT_DIR$/project/target/" />
-    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,39 +16,8 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
   <component name="FavoritesManager">
-    <favorites_list name="CourseExamples" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Boolean.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/elarib/scala/Boolean.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33665836">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/scala/elarib/scala/Boolean.scala" />
-      </list>
-    </option>
+    <favorites_list name="patmat" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
@@ -62,7 +26,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="853" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -74,111 +38,12 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CourseExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../patmat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -269,37 +134,12 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1466041427998" />
-    <option name="availableProjects">
-      <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="CourseExamples" />
-              <option name="path" value="$PROJECT_DIR$" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="courseexamples" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="courseexamples-build" />
-                <option name="path" value="$PROJECT_DIR$/project" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$/../../Week 1/recfun" value="1462369130000" />
         <entry key="$PROJECT_DIR$/../../Week 2/funsets" value="1462316240000" />
         <entry key="$PROJECT_DIR$/../../Week 3/objsets" value="1462319246000" />
-        <entry key="$PROJECT_DIR$" value="1466041417000" />
+        <entry key="$PROJECT_DIR$" value="1462376464000" />
         <entry key="$PROJECT_DIR$/../../../TestProjects/api.datagrid.local" value="1456177418000" />
         <entry key="$PROJECT_DIR$/../../../TestProjects/play-slick3-example" value="1456234738000" />
         <entry key="$PROJECT_DIR$/../../../TestProjects/slick-codegen-customization-example" value="1455885398000" />
@@ -313,19 +153,15 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="199d12b5-9c3a-40e1-b8cf-a1b138a88cc2" name="Default" comment="" />
-      <created>1466041417657</created>
+      <changelist id="2a3e1af9-7f2c-4742-a839-e896f90bf7cf" name="Default" comment="" />
+      <created>1466099514506</created>
       <option name="number" value="Default" />
-      <updated>1466041417657</updated>
-      <workItem from="1466041418875" duration="1556000" />
+      <updated>1466099514506</updated>
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1556000" />
-  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="853" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -337,8 +173,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -359,15 +196,5 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/elarib/scala/Boolean.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33665836">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
